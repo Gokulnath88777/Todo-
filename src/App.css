@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.card
+{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 500px;
+    height:fit-content;
+    background-color:#F8FAFC;
+    border-radius: 10px;  
+    padding:10px;
+}
+
+.heading
+
+{   display: flex;
+    color: #2563EB;
+    justify-content: space-around;
+    align-items: center;
+
+}
+span
+{
+    color: #64748B;
+}
+.inputField input
+{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid black;
+    background-color:#F8FAFC;
+    outline: none;
+
+}
+.inputField button
+{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    border:1px solid black;
+    cursor: pointer;
+}
+.delBtn
+{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    height: fit-content;
+
+}
+.items
+{
+    display: flex;
+    justify-content: space-between; 
+    margin: 10px;
+}
