@@ -1,4 +1,5 @@
-function ToDoItem({todoItems,delItem,toggle}) {
+import React from "react"
+const ToDoItem =React.memo(({todoItems,delItem,toggle})=>{
 
  return (
     <>
@@ -10,6 +11,6 @@ function ToDoItem({todoItems,delItem,toggle}) {
         </div>
     </>
   )
-}
+})
 
 export default ToDoItem

@@ -1,4 +1,5 @@
-function BoardHeader({count,completeCount}) {
+import React from "react"
+const BoardHeader=React.memo(({count,completeCount}) =>{
   return (
     <div className="heading">
         <h1>Smart ToDo App</h1>
@@ -7,6 +8,6 @@ function BoardHeader({count,completeCount}) {
         
     </div>
   )
-}
+})
 
 export default BoardHeader
